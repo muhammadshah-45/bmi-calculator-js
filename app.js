@@ -36,6 +36,9 @@ calculateButton.addEventListener("click",()=>{
         category = "Obesity";
     }
 
-
+  // show the results of bmi
+   let div = document.getElementById("result");
+   // add the bmi result
+   div.innerText = `Your BMI is ${fixedBmi} and you are in the "${category}" category.`
    
 })
