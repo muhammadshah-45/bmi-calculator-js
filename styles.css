@@ -43,5 +43,6 @@ button {
     cursor: pointer;  
 }
 .result {  
-    margin-top: 20px;  
+    margin-top: 20px;
+    color: crimson;  
 }  
